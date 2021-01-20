@@ -10,6 +10,7 @@ edges = linspace(-pi,pi,21);
 %shifts = eegFS:10:7*eegFS;  %circular shifts for surrogates
 shifts = 0;
 
+
 %MI = raw modulation index
 %MInorm = normalized modulation index
 [MI, MInorm] = getmisur(amp,phase,edges,shifts);
